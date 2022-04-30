@@ -14,16 +14,20 @@ A collection of Azure Command for your reference.
 
 <!-- TOC -->
 
-- [Azure AD Dynamic Security Group - Rules](#azure-ad-dynamic-security-group---rules)
+- [Collection of Azure Command](#collection-of-azure-command)
     - [Table of Contents](#table-of-contents)
-    - [Dynamic Security Group - Rules](#dynamic-security-group---rules)
-        - [**Account Activate or Enabled**](#account-activate-or-enabled)
-        - [**Include user base on location**](#include-user-base-on-location)
-        - [**Example of a dynamic security group - rules**](#example-of-a-dynamic-security-group---rules)
+    - [Azure Command](#azure-command)
+        - [Manual or on-demand Azure Policy Compliance Scan](#manual-or-on-demand-azure-policy-compliance-scan)
 
 <!-- /TOC -->
 
-## Collection of Azure Command
+## Azure Command
+
+### Manual or on-demand Azure Policy Compliance Scan
+
+```
+Start-AzPolicyComplianceScan -ResourceGroupName 'ResourceGroup'
+```
 
 <br />
 
